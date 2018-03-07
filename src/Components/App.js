@@ -6,7 +6,9 @@ export default class App extends Component {
   render() {
     return (
       <div>
-      My first component
+        <div>
+          My first component
+        </div>
       <img className="img" src={ GaryOldman } alt="Gary Oldman" />
     </div>
     );
